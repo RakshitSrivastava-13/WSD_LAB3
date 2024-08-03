@@ -1,0 +1,201 @@
+html,body{
+    margin: 0;
+    height: 100%;
+    background-color: rgb(40, 52, 54); 
+
+}
+
+.bootclassimg{
+    height: 500px;
+    width: 80%;
+    background-color: rgb(82, 68, 87);
+     /* border: 2px solid black; */
+   
+    
+    }
+.image_slide{
+    height: 500px; 
+   width: 100%;
+   background-size: cover;
+}
+.slideshow{
+    display: flex;
+    justify-content: center;
+    padding-top: 5em;
+}
+.nav{
+    height:100px;
+    width: 100%;
+ background-color: rgb(2, 33, 4); 
+ display: flex;
+ justify-content: space-evenly; 
+ 
+}
+.logo1 {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.logo1 svg {
+    fill: #000000;
+    transition: fill 0.3s ease;
+}
+
+.logo1+
+ svg:hover {
+    fill: #dd7717;
+}
+.bname{
+    /* text-align: center; */
+    text-decoration: none;
+    font-size: 300%;
+    padding-top:3px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    text-shadow: 1px 2px;
+}
+.heading{
+    /* letter-spacing: 4px; */
+    align-items: center;
+    padding-top: 2em;
+}
+.heading>a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+    margin-left: 4em;
+    text-transform: capitalize;
+   
+}
+.column {
+    float: left;
+    width: 32%;
+    margin-bottom: 16px;
+    padding:2px 8px;
+    padding-top: 5em;
+  }
+  
+  /* Display the columns below each other instead of side by side on small screens */
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  /* Add some shadows to create a card effect */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  /* Some left and right padding inside the container */
+  .container {
+    padding: 0 16px;
+  }
+  .container>h2{
+    color: rgb(31, 1, 7);
+    text-shadow: 2px 1px;
+  }
+  
+  /* Clear floats */
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: rgb(21, 17, 17);
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #4e0909;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+
+  .down{
+    background-color: #adc9d7;
+    color: white;
+    padding-top: 3em;
+    border-top: 1px solid white;
+    }
+  
+  .logo{
+     
+      /* height:200px;
+      width: 100%; */
+      /* background-color: rgb(68, 255, 0); */
+      display: flex;
+      justify-content: center;
+  }
+  .logo>i{
+      font-size: 500%;
+  }
+  .brand{
+      top: 50%;
+      font-size: 150%;
+      text-shadow: 0 0 15px #000;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing:8px ;
+      display: flex;
+      justify-content: center;
+  }
+  #foot{
+      /* background-color: pink; */
+      height: 200px;
+      display: flex;
+      justify-content:space-around;
+  
+  }
+  .contact{
+      font-size: 100%;
+      text-shadow: 0 0 15px #000;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing:8px ;
+     
+  }
+  .para>a{
+      text-decoration: none;
+      color: white;
+      font-family:'Times New Roman', Times, serif;
+      text-transform: lowercase;
+      letter-spacing: 0;
+      font-size:15px;
+  
+  }
+  
+  .para{
+      font-size: 80%;
+      text-shadow: 0 0 15px #000;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing:5px ;
+  }
+  .copy{
+      text-align: center;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding-bottom: 4em;
+  }
+  
+    
+  
+  
+  
+  
+  
